@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: pink;
+}
+
+.link-more {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    left: 1px;
+}
+
+.link-more .icon {
+    transition: all 0.4s ease;
+}
+
+.link-more:hover .icon {
+    transform: translateX(8px);
+}
+
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    position: relative;
+}
+
+/* INTRO */
+.intro {
+    margin-bottom: 60px;
+}
+
+.intro h1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.intro h6 {
+    color: pink;
+}
+
+.intro p {
+    max-width: 500px;
+    margin: auto;
+}
+
+.cta-btns {
+    margin-top: 60px;
+}
+
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(to bottom,pink, rgb(27, 31, 52, 0.2));
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: aquamarine;
+}
+
+.navbar-brand {
+    font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+
+/* HERO */
+#hero {
+    background: linear-gradient(to right,pink, rgb(27, 31, 52, 0.0)), url(../img/wl.jpeg) ;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+#hero p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+
+/* TENTANG KAMI */
+
+#tentang{
+    background-color: #151828;
+}
+
+#tentang .signature {
+    width: relative;
+ }
+
+#tentang h1 {
+    margin-bottom: 24px;
+}
+#tentang h6 {
+    color: pink;
+    margin-bottom: 16px;
+}
+
+#tentang::after {
+    content: "";
+    width: 25%;
+    height: 100%;
+    background-color: palevioletred;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* LAYANAN */
+#layanan {
+    background: palevioletred;
+    
+}
+
+#layanan .layanan h6{
+    background-color: black;
+}
+
+#layanan .layanan .content {
+    padding: 32px;
+}
+
+#layanan .layanan p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    
+}
+
+#galeri{
+    background-color: rgba(128, 128, 128, 0.715) ;
+}
+
+
+/* Tim Kami*/
+#timkami{
+    background-color: palevioletred;
+}
+.timkami {
+    position: relative;
+}
+
+
+.timkami.social-links {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.timkami:hover .social-links {
+    opacity: 1;
+    top: 30px;
+}
+
+
+/* Pesan */
+#Pesan{
+    background: linear-gradient(to right,rgba(27, 31, 52, 0.8), rgba(27, 31, 52, 0.8)) ;
+    background-size: cover;
+    background-position: center;
+    background-color: palevioletred;
+    
+}
+
+
+#Pesan form{
+    background-color: palevioletred;
+    padding: 32px;
+
+
+}
+
+#Pesan form .form-control {
+    background-color: palevioletred;
+    border-radius: 0;
+    margin-top: 16px;
+    border-color: palevioletred;
+    border: 2px solid palevioletred;
+    color: palevioletred;
+}
+
+
+
+  h1{
+    margin-bottom: 2rem;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+    
+
+  }
+  
+  input,
+  select,
+  textarea{
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px solid palevioletred;
+    
+  }
+  
+  textarea{
+    height: 6rem;
+  }
+  
+  button{
+    width: 8rem;
+    padding: 1rem;
+    cursor: pointer;
+    background: palevioletred;
+    color: var(--bg2);
+  }
+  
+  #galeri .galeri h1{
+    background-color: pink;
+  }
